@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/accent_material_dark" android:maxHeight="200.0dip" android:minHeight="180.0dip" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/imageView">
+        <TableLayout android:theme="@style/AppTheme" android:orientation="vertical" android:background="@color/background_floating_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/imageView" android:layout_alignParentStart="true" style="@style/Base.TextAppearance.AppCompat.Body2">
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:layout_column="0" android:text="A" />
+                <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:layout_column="1" android:text="B" />
+                <Button android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:layout_column="3" android:text="C" />
+                <Button android:id="@id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70.0dip" android:layout_column="4" android:text="D" />
+            </TableRow>
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1" />
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TableRow android:orientation="vertical" android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="E" />
+                <Button android:id="@id/button6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="F" />
+                <Button android:id="@id/button7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="3" android:text="G" />
+                <Button android:id="@id/button8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="4" android:text="H" />
+            </TableRow>
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="I" />
+                <Button android:id="@id/button10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="J" />
+                <Button android:id="@id/button11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="3" android:text="K" />
+                <Button android:id="@id/button12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="4" android:text="L" />
+            </TableRow>
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="M" />
+                <Button android:id="@id/button14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="N" />
+                <Button android:id="@id/button15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="3" android:text="O" />
+                <Button android:id="@id/button16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="4" android:text="P" />
+            </TableRow>
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="Q" />
+                <Button android:id="@id/button18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="R" />
+                <Button android:id="@id/button19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="3" android:text="S" />
+                <Button android:id="@id/button20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="4" android:text="T" />
+            </TableRow>
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1" />
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="U" />
+                <Button android:id="@id/button22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="V" />
+                <Button android:id="@id/button23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="3" android:text="W" />
+                <Button android:id="@id/button24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="4" android:text="X" />
+            </TableRow>
+            <TableRow android:background="@color/link_text_material_light" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Base.TextAppearance.AppCompat.Body1">
+                <Button android:id="@id/button25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="Y" />
+                <Button android:id="@id/button26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="3" android:text="Z" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
