@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agro@sisT</string>
+    <string name="title_activity_home">Home</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_language">Language</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_module">Module</string>
+    <string name="title_activity_wearher">Wearher</string>
+    <string name="temprature">Temprature</string>
+    <string name="condition">Condition</string>
+    <string name="location">Location</string>
+    <string name="title_activity_expert1">Expert1</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="hello">Hello World, AudioRecordingActivity!</string>
+    <string name="app_info">This is a sample application to record audio.\n\nTo start recording press \"Record\" button, to stop recording press \"Stop\" button.</string>
+    <string name="choose_format_title">Choose Audio Format</string>
+    <string name="start_recording">Record</string>
+    <string name="stop_recording">Stop</string>
+    <string name="audio_format">Format</string>
+    <string name="title_activity_call">Call</string>
+    <string name="title_activity_query">Query</string>
+    <string name="title_activity_voice_send">VoiceSend</string>
+    <string name="title_activity_login_exp">LoginExp</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_control">Control</string>
+    <string name="title_activity_login_user">LoginUser</string>
+    <string name="title_activity_expert_details">ExpertDetails</string>
+    <string name="title_activity_controller">Controller</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sikandaryadav.agrosist" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Module"
+            android:label="@string/title_activity_module" >
+        </activity>
+        <activity
+            android:name=".Language"
+            android:label="@string/title_activity_language" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Agro@sisT" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Wearher"
+            android:label="@string/title_activity_wearher" >
+        </activity>
+        <activity
+            android:name=".Expert1"
+            android:label="@string/title_activity_expert1" >
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name=".Call"
+            android:label="@string/title_activity_call" >
+        </activity>
+        <activity
+            android:name=".Query"
+            android:label="@string/title_activity_query" >
+        </activity>
+        <activity
+            android:name=".VoiceSend"
+            android:label="@string/title_activity_voice_send" >
+        </activity>
+        <activity
+            android:name=".LoginExp"
+            android:label="@string/title_activity_login_exp" >
+        </activity>
+        <activity
+            android:name=".Signin"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".Control"
+            android:label="@string/title_activity_control" >
+        </activity>
+        <activity
+            android:name=".LoginUser"
+            android:label="@string/title_activity_login_user" >
+        </activity>
+        <activity
+            android:name=".ExpertDetails"
+            android:label="@string/title_activity_expert_details" >
+        </activity>
+        <activity
+            android:name=".Controller"
+            android:label="@string/title_activity_controller" >
+        </activity>
+    </application>
+
+</manifest>
